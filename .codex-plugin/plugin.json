@@ -1,0 +1,41 @@
+{
+  "name": "calendar",
+  "version": "0.1.3",
+  "description": "Manage Apple Calendar directly through deterministic AppleScript reads and event CRUD.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/calendar",
+  "repository": "https://github.com/PedroAVJ/calendar",
+  "license": "MIT",
+  "keywords": [
+    "apple-calendar",
+    "calendar",
+    "macos",
+    "applescript",
+    "events"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Calendar",
+    "shortDescription": "Direct Apple Calendar event management",
+    "longDescription": "Use Apple's Calendar application through deterministic AppleScript rather than visual automation: enumerate calendars, search and read exact events, and create, update, or delete events with explicit calendar and recurrence boundaries plus read-back verification.",
+    "developerName": "PedroAVJ",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#FF3B30",
+    "composerIcon": "./assets/calendar-icon.svg",
+    "logo": "./assets/calendar-icon.svg",
+    "screenshots": [],
+    "defaultPrompt": [
+      "What is on my Apple Calendar?",
+      "Create this event in Calendar",
+      "Find and update this calendar event"
+    ]
+  }
+}

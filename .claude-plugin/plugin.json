@@ -1,0 +1,20 @@
+{
+  "name": "calendar",
+  "version": "0.1.3",
+  "description": "Manage Apple Calendar directly through deterministic AppleScript reads and event CRUD.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/calendar",
+  "repository": "https://github.com/PedroAVJ/calendar",
+  "license": "MIT",
+  "keywords": [
+    "apple-calendar",
+    "calendar",
+    "macos",
+    "applescript",
+    "events"
+  ],
+  "skills": "./skills/"
+}
